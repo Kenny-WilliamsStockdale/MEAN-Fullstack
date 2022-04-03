@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "concurrently": "^7.1.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "latest": "^0.2.0",
+    "mongoose": "^6.2.9",
+    "nodemon": "^2.0.15"
+  },
+  "name": "mean-fullstack",
+  "description": "MEAN stack",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenny-WilliamsStockdale/MEAN-Fullstack.git"
+  },
+  "author": "Kenny Stockdale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kenny-WilliamsStockdale/MEAN-Fullstack/issues"
+  },
+  "homepage": "https://github.com/Kenny-WilliamsStockdale/MEAN-Fullstack#readme"
+}
